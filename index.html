@@ -2,213 +2,1946 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Aniran Mohammadpour | IT / Software Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Personal portfolio and technical projects of Aniran."
+        content="Aniran Mohammadpour - IT Specialist, Software Engineer, IoT Researcher and Software Engineering Master's Student."
     >
+
+    <meta
+        name="keywords"
+        content="Aniran Mohammadpour, Software Engineer, IT Specialist, Java, Spring Boot, Angular, IoT, Linux, Docker"
+    >
+
+    <meta name="author" content="Aniran Mohammadpour">
+
+    <title>Aniran Mohammadpour | IT & Software Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <div class="logo">Aniran</div>
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>ANIRAN<span>/&gt;</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav id="mainNav">
+
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#research">Research</a>
+                <a href="#awards">Awards</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                aria-label="Toggle theme"
+            >
+                ☾
+            </button>
+
         </div>
-    </nav>
-</header>
+
+    </header>
 
 
-<main>
+    <main>
 
-    <section class="hero">
+        <!-- =========================
+             HERO
+        ========================== -->
 
-        <div class="hero-content">
+        <section id="home" class="hero">
 
-            <p class="eyebrow">
-                IT / SOFTWARE ENGINEER
-            </p>
+            <div class="container hero-grid">
 
-            <h1>
-                Building reliable systems,
-                automation and infrastructure.
-            </h1>
+                <div class="hero-content">
 
-            <p>
-                I work on infrastructure, monitoring, automation,
-                networking and software engineering projects.
-            </p>
+                    <p class="eyebrow">
+                        IT SPECIALIST · SOFTWARE ENGINEER · IOT
+                    </p>
 
-            <div class="buttons">
-                <a href="#projects" class="button primary">
-                    View Projects
-                </a>
+                    <h1>
+                        Aniran<br>
+                        <span>Mohammadpour</span>
+                    </h1>
 
-                <a href="https://github.com/YOURUSERNAME"
-                   class="button secondary">
-                    GitHub
-                </a>
+                    <p class="hero-description">
+                        IT specialist and software engineer with experience in
+                        software development, infrastructure, monitoring,
+                        Internet of Things, and technical research.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary"
+                        >
+                            View My Projects
+                        </a>
+
+                        <a
+                            href="#contact"
+                            class="btn btn-secondary"
+                        >
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                    <div class="social-links hero-social">
+
+                        <a
+                            href="https://github.com/aniranmp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/aniranmohammadpour/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="https://gitlab.com/aniranmp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitLab"
+                        >
+                            GitLab
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>aniran@portfolio:~</span>
+
+                        </div>
+
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                whoami
+                            </p>
+
+                            <p class="terminal-output">
+                                Software Engineer
+                            </p>
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                skills
+                            </p>
+
+                            <p class="terminal-output">
+                                Java · Spring Boot · Angular
+                            </p>
+
+                            <p class="terminal-output">
+                                Python · Docker · Linux
+                            </p>
+
+                            <p class="terminal-output">
+                                IoT · Networking · Monitoring
+                            </p>
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                status
+                            </p>
+
+                            <p class="terminal-output">
+                                Open to interesting technical challenges.
+                            </p>
+
+                            <span class="cursor"></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <section id="about">
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
-        <h2>About Me</h2>
+        <section id="about" class="section">
 
-        <p>
-            I am an IT and software professional interested in
-            infrastructure, automation, monitoring and building
-            practical technical solutions.
-        </p>
+            <div class="container">
 
-    </section>
+                <div class="section-heading">
 
+                    <span class="section-number">
+                        01
+                    </span>
 
-    <section id="skills">
+                    <h2>About Me</h2>
 
-        <h2>Skills</h2>
+                </div>
 
-        <div class="skills">
+                <div class="about-grid">
 
-            <span>Linux</span>
-            <span>Windows Server</span>
-            <span>Networking</span>
-            <span>Virtualization</span>
-            <span>Monitoring</span>
-            <span>Python</span>
-            <span>Git</span>
-            <span>Docker</span>
+                    <div>
 
-        </div>
+                        <p class="large-text">
 
-    </section>
+                            I am an IT specialist and software engineer with
+                            a strong interest in modern computer technologies,
+                            software engineering, infrastructure, and the
+                            Internet of Things.
 
+                        </p>
 
-    <section id="projects">
+                        <p>
 
-        <h2>Projects</h2>
+                            Since 2017, I have been active in the field of
+                            Internet of Things and have worked on software,
+                            hardware, academic, educational, and research
+                            projects.
 
-        <div class="projects">
+                        </p>
 
-            <article class="project">
+                        <p>
 
-                <h3>Project Name</h3>
+                            My professional interests include backend
+                            development, web applications, Linux-based
+                            infrastructure, monitoring, automation,
+                            networking, embedded systems, and IoT solutions.
 
-                <p>
-                    Short explanation of what the project does,
-                    what problem it solves and what technologies
-                    were used.
-                </p>
+                        </p>
 
-                <a href="#">
-                    View Project →
-                </a>
-
-            </article>
+                    </div>
 
 
-            <article class="project">
+                    <div class="profile-box">
 
-                <h3>Monitoring Platform</h3>
+                        <div class="profile-item">
 
-                <p>
-                    Monitoring and alerting platform for infrastructure
-                    and services.
-                </p>
+                            <span>Current Role</span>
 
-                <a href="#">
-                    View Project →
-                </a>
+                            <strong>
+                                IT Specialist
+                            </strong>
 
-            </article>
+                        </div>
+
+                        <div class="profile-item">
+
+                            <span>Education</span>
+
+                            <strong>
+                                M.Sc. Software Engineering
+                            </strong>
+
+                        </div>
+
+                        <div class="profile-item">
+
+                            <span>Primary Language</span>
+
+                            <strong>
+                                Java
+                            </strong>
+
+                        </div>
+
+                        <div class="profile-item">
+
+                            <span>English</span>
+
+                            <strong>
+                                Reading 80% · Writing 60%
+                            </strong>
+
+                        </div>
+
+                        <div class="profile-item">
+
+                            <span>Military Service</span>
+
+                            <strong>
+                                Permanent Exemption
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-            <article class="project">
+        <!-- =========================
+             EDUCATION
+        ========================== -->
 
-                <h3>Automation Tool</h3>
+        <section id="education" class="section section-alt">
 
-                <p>
-                    Automation solution for repetitive infrastructure
-                    or administrative tasks.
-                </p>
+            <div class="container">
 
-                <a href="#">
-                    View Project →
-                </a>
+                <div class="section-heading">
 
-            </article>
+                    <span class="section-number">
+                        02
+                    </span>
 
-        </div>
+                    <h2>Education</h2>
 
-    </section>
+                </div>
 
 
-    <section id="experience">
+                <div class="timeline">
 
-        <h2>Experience</h2>
+                    <article class="timeline-item reveal">
 
-        <div class="experience-item">
+                        <div class="timeline-date">
+                            2022 – Present
+                        </div>
 
-            <h3>IT / Software Engineer</h3>
+                        <div class="timeline-content">
 
-            <p class="date">
-                202X — Present
+                            <h3>
+                                M.Sc. in Computer Engineering
+                            </h3>
+
+                            <h4>
+                                Software Engineering
+                            </h4>
+
+                            <p>
+                                University of Kurdistan
+                            </p>
+
+                            <span class="score">
+                                GPA: 18.93 / 20
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            2017 – 2021
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                B.Sc. in Computer Engineering
+                            </h3>
+
+                            <p>
+                                University of Kurdistan
+                            </p>
+
+                            <span class="score">
+                                GPA: 18.18 / 20
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="timeline-item reveal">
+
+                        <div class="timeline-date">
+                            2014 – 2017
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <h3>
+                                Diploma in Mathematics
+                            </h3>
+
+                            <p>
+                                Sheikh Shaltout State Sample High School
+                            </p>
+
+                            <span class="score">
+                                GPA: 18.15 / 20
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EXPERIENCE
+        ========================== -->
+
+        <section id="experience" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    <h2>Professional Experience</h2>
+
+                </div>
+
+
+                <div class="experience-list">
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2024 – Present
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                IT Specialist
+                            </h3>
+
+                            <h4>
+                                Kurdistan Province Power Distribution Company
+                            </h4>
+
+                            <p>
+                                IT support and technical activities within
+                                the company's ICT support unit.
+                            </p>
+
+                            <div class="tags">
+
+                                <span>IT Support</span>
+                                <span>Infrastructure</span>
+                                <span>Networking</span>
+                                <span>Monitoring</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2023 – 2024
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Secretary – SoMA Association
+                            </h3>
+
+                            <h4>
+                                University of Kurdistan
+                            </h4>
+
+                            <p>
+                                Student association activities focused on
+                                supporting students with disabilities.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2022 – 2023
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Technology Assistant
+                            </h3>
+
+                            <h4>
+                                DehnGar Company – Kurdistan Science and
+                                Technology Park
+                            </h4>
+
+                            <p>
+                                Participated in technology-oriented
+                                activities and implementation projects.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2022 – 2023
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Web Application Developer
+                            </h3>
+
+                            <h4>
+                                Maharsystem
+                            </h4>
+
+                            <p>
+                                Developed a web application using Java,
+                                Angular and PostgreSQL for industrial
+                                data collection through Modbus TCP.
+                                The application was deployed with Docker
+                                on Ubuntu Server and used multithreading
+                                for concurrent data collection.
+                            </p>
+
+                            <div class="tags">
+
+                                <span>Java</span>
+                                <span>Angular</span>
+                                <span>PostgreSQL</span>
+                                <span>Docker</span>
+                                <span>Ubuntu</span>
+                                <span>Modbus TCP</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2021 – Present
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Web Application Developer
+                            </h3>
+
+                            <h4>
+                                Independent Projects
+                            </h4>
+
+                            <p>
+                                Development of web applications using Java,
+                                Spring Boot, MongoDB, PostgreSQL, Angular,
+                                HTML, CSS and TypeScript.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2018 – 2020
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                IoT Instructor & Assistant Instructor
+                            </h3>
+
+                            <h4>
+                                IoT Laboratory – University of Kurdistan
+                            </h4>
+
+                            <p>
+                                Delivered and assisted with multiple
+                                educational courses in Internet of Things
+                                and participated in IoT research activities.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2018 – 2019
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Computer Department Website Administrator
+                            </h3>
+
+                            <h4>
+                                Faculty of Engineering – University of Kurdistan
+                            </h4>
+
+                            <p>
+                                Maintained, supported and deployed software
+                                on the computers used by the Computer
+                                Engineering department.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-card reveal">
+
+                        <div class="experience-year">
+                            2018 – 2019
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                IoT Association Secretary
+                            </h3>
+
+                            <h4>
+                                University of Kurdistan
+                            </h4>
+
+                            <p>
+                                Organized conferences, competitions,
+                                educational visits and technical training
+                                activities.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SKILLS
+        ========================== -->
+
+        <section id="skills" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+                    <h2>Technical Skills</h2>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-group reveal">
+
+                        <h3>Programming</h3>
+
+                        <div class="skill-tags">
+
+                            <span class="skill-main">Java</span>
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>C#</span>
+                            <span>TypeScript</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>Backend & Frameworks</h3>
+
+                        <div class="skill-tags">
+
+                            <span class="skill-main">Spring Boot</span>
+                            <span>Angular</span>
+                            <span>Node-RED</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>Databases</h3>
+
+                        <div class="skill-tags">
+
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>Infrastructure & Tools</h3>
+
+                        <div class="skill-tags">
+
+                            <span>Docker</span>
+                            <span>Git</span>
+                            <span>Trello</span>
+                            <span>MS Word</span>
+                            <span>MS PowerPoint</span>
+                            <span>Canva</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>Operating Systems</h3>
+
+                        <div class="skill-tags">
+
+                            <span>Ubuntu</span>
+                            <span>Ubuntu Server</span>
+                            <span>macOS</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>IoT & Embedded Systems</h3>
+
+                        <div class="skill-tags">
+
+                            <span>Arduino</span>
+                            <span>ARM</span>
+                            <span>AVR</span>
+                            <span>Modbus</span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-group reveal">
+
+                        <h3>Other</h3>
+
+                        <div class="skill-tags">
+
+                            <span>Protobuf</span>
+                            <span>ICDL</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        05
+                    </span>
+
+                    <h2>Selected Projects</h2>
+
+                </div>
+
+
+                <div class="project-grid">
+
+
+                    <article class="project-card featured reveal">
+
+                        <div class="project-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Amadiyar – Logistics Management Platform
+                        </h3>
+
+                        <p>
+
+                            A web and Android solution designed for
+                            shipment management and tracking. The Android
+                            application provides route optimization and
+                            estimated arrival information for drivers,
+                            while the web application provides different
+                            access levels for logistics companies and their
+                            customers with live shipment tracking.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Web Application</span>
+                            <span>Android</span>
+                            <span>Logistics</span>
+                            <span>Tracking</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Darya-Net
+                        </h3>
+
+                        <p>
+
+                            Developed the administration panel and backend
+                            of the Darya-Net application using Java,
+                            Spring Boot and Angular.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Angular</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            03
+                        </div>
+
+                        <h3>
+                            Yara
+                        </h3>
+
+                        <p>
+
+                            A web application that receives user requests
+                            through voice, processes them and displays a
+                            corresponding response. Developed using Java,
+                            Spring Boot and Angular.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Angular</span>
+                            <span>Voice Processing</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            04
+                        </div>
+
+                        <h3>
+                            WebSocket Chat Room
+                        </h3>
+
+                        <p>
+
+                            A real-time web chat application implemented
+                            using Java, Spring Boot, Angular and WebSocket.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Angular</span>
+                            <span>WebSocket</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            05
+                        </div>
+
+                        <h3>
+                            Smart IoT Outlet
+                        </h3>
+
+                        <p>
+
+                            An IoT-based smart outlet that enables remote
+                            control of electrical power and monitoring of
+                            electricity consumption.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>IoT</span>
+                            <span>Arduino</span>
+                            <span>C</span>
+                            <span>Smart Home</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            06
+                        </div>
+
+                        <h3>
+                            Smart Algae Research Room
+                        </h3>
+
+                        <p>
+
+                            A smart experimental environment designed to
+                            manage humidity and temperature for algae
+                            research at the Faculty of Natural Resources.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>IoT</span>
+                            <span>Sensors</span>
+                            <span>Automation</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            07
+                        </div>
+
+                        <h3>
+                            Smart Greenhouse
+                        </h3>
+
+                        <p>
+
+                            An automated greenhouse system for controlling
+                            temperature, air humidity and soil moisture,
+                            including automated irrigation and remote
+                            management.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>IoT</span>
+                            <span>Automation</span>
+                            <span>Smart Agriculture</span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">
+                            08
+                        </div>
+
+                        <h3>
+                            Industrial Data Collection Platform
+                        </h3>
+
+                        <p>
+
+                            A Java-based web application developed to collect
+                            data from industrial devices through Modbus TCP.
+                            The application used multithreading for concurrent
+                            communication and was deployed using Docker on
+                            Ubuntu Server.
+
+                        </p>
+
+                        <div class="tags">
+
+                            <span>Java</span>
+                            <span>Spring</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                            <span>Modbus TCP</span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESEARCH & PUBLICATIONS
+        ========================== -->
+
+        <section id="research" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        06
+                    </span>
+
+                    <h2>Research, Publications & Patents</h2>
+
+                </div>
+
+
+                <div class="research-grid">
+
+
+                    <article class="research-card reveal">
+
+                        <span class="research-year">
+                            2025
+                        </span>
+
+                        <h3>
+                            Smart Aquaculture Management Using
+                            the Internet of Things (IoT)
+                        </h3>
+
+                        <a
+                            href="https://civilica.com/doc/2390012/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Publication →
+                        </a>
+
+                    </article>
+
+
+                    <article class="research-card reveal">
+
+                        <span class="research-year">
+                            2021
+                        </span>
+
+                        <h3>
+                            IoT Outlet Based on Psychological Principles
+                            of Colors in Smart Homes
+                        </h3>
+
+                        <a
+                            href="https://en.civilica.com/doc/1326426/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Publication →
+                        </a>
+
+                    </article>
+
+
+                    <article class="research-card patent reveal">
+
+                        <span class="research-year">
+                            2025
+                        </span>
+
+                        <h3>
+                            Smart Embedded IoT Outlet Based on
+                            Psychological Properties of Colors
+                        </h3>
+
+                        <p>
+                            Registered with the Iranian Intellectual Property
+                            Office.
+                        </p>
+
+                        <span class="patent-number">
+                            Registration No. 113180
+                        </span>
+
+                    </article>
+
+
+                    <article class="research-card patent reveal">
+
+                        <span class="research-year">
+                            2020
+                        </span>
+
+                        <h3>
+                            Smart Embedded IoT Outlet Based on
+                            Psychological Properties of Colors
+                        </h3>
+
+                        <p>
+                            Registered invention.
+                        </p>
+
+                        <span class="patent-number">
+                            Registration No. 103284
+                        </span>
+
+                    </article>
+
+
+                    <article class="research-card patent reveal">
+
+                        <span class="research-year">
+                            2023
+                        </span>
+
+                        <h3>
+                            Earthquake Circuit Breaker
+                        </h3>
+
+                        <p>
+                            Registered invention.
+                        </p>
+
+                        <span class="patent-number">
+                            Registration No. 109767
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CERTIFICATIONS
+        ========================== -->
+
+        <section id="certifications" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        07
+                    </span>
+
+                    <h2>Courses & Certifications</h2>
+
+                </div>
+
+
+                <div class="cert-grid">
+
+                    <div class="cert-item reveal">
+                        <strong>International Conference ISCEE Judge</strong>
+                        <span>University of Kurdistan · 2025</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>LPIC-2</strong>
+                        <span>Energy Research Institute, Western Regional Center · 2025</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Network+</strong>
+                        <span>Islamic Azad University · 2025</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Security+</strong>
+                        <span>Islamic Azad University · 2025</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Member of the International Federation of Inventors</strong>
+                        <span>Geneva, Switzerland · 2024</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Afra Scientific-Industrial Event</strong>
+                        <span>2024</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Java Web Application Development</strong>
+                        <span>Spring Boot & Angular · 2021</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Security & Communication Systems Installer and Troubleshooter</strong>
+                        <span>Technical and Vocational Organization · 2021</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Robotics Summer School</strong>
+                        <span>Amirkabir University of Technology · 2021</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Introduction to Quantum Sciences and Technologies</strong>
+                        <span>Damghan Physics Scientific Association · 2021</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>IoT Summer School</strong>
+                        <span>ITU Iran Unit – University of Tehran · 2019</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>ARM/AVR Programming & Computer Power Supply Maintenance</strong>
+                        <span>Shahid Beheshti University · 2019</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>PCB Design & Manufacturing with Proteus</strong>
+                        <span>University of Kurdistan Robotics Association · 2018</span>
+                    </div>
+
+                    <div class="cert-item reveal">
+                        <strong>Arduino & Smart Home Automation</strong>
+                        <span>University of Kurdistan Robotics Association · 2018</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             AWARDS
+        ========================== -->
+
+        <section id="awards" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        08
+                    </span>
+
+                    <h2>Honors & Achievements</h2>
+
+                </div>
+
+
+                <div class="awards-list">
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2025</span>
+
+                        <p>
+                            Gold Medal – 5th International Inventions
+                            and Innovations Competition, Geneva
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2024</span>
+
+                        <p>
+                            Top Scientific, Technological and Innovative
+                            Performer – ISC
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2024</span>
+
+                        <p>
+                            First Place – Short Story Category,
+                            University Rooyesh Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2024</span>
+
+                        <p>
+                            Selected Young Person of the Year – Province
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2024</span>
+
+                        <p>
+                            Selected Poster – First Provincial Festival
+                            for Sharing Valuable Educational Experiences
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2024</span>
+
+                        <p>
+                            Selected Entry – 3rd Afra Scientific-Industrial
+                            Event in ICT
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Selected Technology Assistant – Kurdistan
+                            Science and Technology Park
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Finalist – 7th Festival of Young Thinkers
+                            and Scholars
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Outstanding Cultural Student
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Selected Participant – 38th National University
+                            Qur'an and Etrat Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Selected Team – 16th Harakat Festival,
+                            Creative Activities
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2023</span>
+
+                        <p>
+                            Selected Team – 16th Harakat Festival,
+                            Inventions
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2022</span>
+
+                        <p>
+                            Selected for the Shahid Ahmadi Roshan Program –
+                            National Elite Foundation
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2022</span>
+
+                        <p>
+                            Commended Invention – 14th National Harakat Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2021</span>
+
+                        <p>
+                            Third Place – Ramadan Table Tennis Tournament
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2020</span>
+
+                        <p>
+                            Active Contributor in Sports and Award-Winning
+                            Student Activities
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2020</span>
+
+                        <p>
+                            Selected Participant – 36th University
+                            Qur'an and Etrat Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2019</span>
+
+                        <p>
+                            First Place – University Darts Competition
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2019</span>
+
+                        <p>
+                            Selected Team – 14th International Harakat Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2019</span>
+
+                        <p>
+                            Selected Student for Ernst Mach Grant
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2019</span>
+
+                        <p>
+                            Second Place Team – First Bright Ideas Festival,
+                            Kurdistan Province Power Company
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2018</span>
+
+                        <p>
+                            Selected Team – 3rd Western Region IoT League
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2018</span>
+
+                        <p>
+                            Active Member – IoT Association Booth,
+                            12th Harakat Festival
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2018</span>
+
+                        <p>
+                            Outstanding Cultural Student
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2018</span>
+
+                        <p>
+                            Active Member of Scientific Associations
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2018–2019</span>
+
+                        <p>
+                            Member of the University of Kurdistan
+                            Talented Students Organization
+                        </p>
+
+                    </div>
+
+
+                    <div class="award reveal">
+
+                        <span class="award-year">2017</span>
+
+                        <p>
+                            Outstanding Educational Student
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PERSONAL SKILLS
+        ========================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        09
+                    </span>
+
+                    <h2>Personal Strengths</h2>
+
+                </div>
+
+
+                <div class="strengths">
+
+                    <span>Patient</span>
+                    <span>Hardworking</span>
+                    <span>Kind</span>
+                    <span>Friendly</span>
+                    <span>Team Player</span>
+                    <span>Honest</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             REFERENCES
+        ========================== -->
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        10
+                    </span>
+
+                    <h2>References</h2>
+
+                </div>
+
+
+                <div class="reference-grid">
+
+                    <div class="reference-card reveal">
+
+                        <h3>
+                            Dr. Rouziar Peyr-Mohammadiani
+                        </h3>
+
+                        <p>
+                            Head of Computer Engineering Department
+                        </p>
+
+                        <span>
+                            University of Kurdistan
+                        </span>
+
+                    </div>
+
+
+                    <div class="reference-card reveal">
+
+                        <h3>
+                            Dr. Hassan Biourani
+                        </h3>
+
+                        <p>
+                            Professor, Department of Electrical Engineering
+                        </p>
+
+                        <span>
+                            University of Kurdistan
+                        </span>
+
+                    </div>
+
+
+                    <div class="reference-card reveal">
+
+                        <h3>
+                            Dr. Habibollah Mohammadi
+                        </h3>
+
+                        <p>
+                            Professor, Department of Natural Resources
+                        </p>
+
+                        <span>
+                            University of Kurdistan
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <div class="contact-content">
+
+                    <span class="section-number">
+                        11
+                    </span>
+
+                    <h2>
+                        Let's Connect
+                    </h2>
+
+                    <p>
+                        Interested in software engineering, IT
+                        infrastructure, IoT, research, or technical
+                        collaboration?
+                    </p>
+
+                    <div class="contact-links">
+
+                        <a
+                            href="tel:+989056552303"
+                            class="contact-link"
+                        >
+                            <span>Phone</span>
+                            <strong>
+                                +98 905 655 2303
+                            </strong>
+                        </a>
+
+
+                        <a
+                            href="https://github.com/aniranmp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+                            <span>GitHub</span>
+                            <strong>
+                                @aniranmp
+                            </strong>
+                        </a>
+
+
+                        <a
+                            href="https://gitlab.com/aniranmp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+                            <span>GitLab</span>
+                            <strong>
+                                @aniranmp
+                            </strong>
+                        </a>
+
+
+                        <a
+                            href="https://www.linkedin.com/in/aniranmohammadpour/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="contact-link"
+                        >
+                            <span>LinkedIn</span>
+                            <strong>
+                                aniranmohammadpour
+                            </strong>
+                        </a>
+
+
+                        <div class="contact-link">
+
+                            <span>Telegram</span>
+
+                            <strong>
+                                @aniranmohammadpour
+                            </strong>
+
+                        </div>
+
+
+                        <div class="contact-link">
+
+                            <span>Quora</span>
+
+                            <strong>
+                                aniran-mohammadpour
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="currentYear"></span>
+                Aniran Mohammadpour
             </p>
 
             <p>
-                Infrastructure management, monitoring,
-                automation and technical projects.
+                Built with HTML, CSS & JavaScript.
             </p>
 
         </div>
 
-    </section>
+    </footer>
 
 
-    <section id="contact">
+    <!-- BACK TO TOP -->
 
-        <h2>Contact</h2>
-
-        <p>
-            Interested in technical projects or collaboration?
-        </p>
-
-        <a href="mailto:aniran.mp.edu@email.com"
-           class="button primary">
-            Contact Me
-        </a>
-
-    </section>
-
-</main>
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
 
 
-<footer>
-
-    <p>
-        © 2026 Aniranmp
-    </p>
-
-</footer>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
